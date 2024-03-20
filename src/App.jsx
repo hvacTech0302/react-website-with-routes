@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Gallery from "./pages/gallery/Gallery";
@@ -22,6 +23,7 @@ const App = () => {
         {/* If invalid URL, route to NotFound */}
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
