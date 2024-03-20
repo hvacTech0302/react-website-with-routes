@@ -5,7 +5,8 @@
 
 .gallery-container article {
   border: 1rem solid transparent;
-  border-radius: 1.5rem;
+  border-radius: 0 2rem;
+  overflow: hidden;
   transition: var(--transition);
 }
 
@@ -14,7 +15,7 @@
 }
 
 .gallery-container article img {
-  border-radius: 1.5rem;
+  border-radius: 0 2rem;
   overflow: hidden;
 }
 
