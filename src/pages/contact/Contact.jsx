@@ -19,21 +19,21 @@ const Contact = () => {
             <a
               href="mailto:test.email@email.org"
               target="_blank"
-              rel="norefferer noopener"
+              rel="noreferer noopener noreferrer"
             >
               <MdEmail />
             </a>
             <a
               href="https://m.me/test-messenger"
               target="_blank"
-              rel="norefferer noopener"
+              rel="noopener noreferrer"
             >
               <BsMessenger />
             </a>
             <a
               href="https://wa.me/+12345678901"
               target="_blank"
-              rel="norefferer noopener"
+              rel="norefferer noopener noreferrer"
             >
               <IoLogoWhatsapp />
             </a>
